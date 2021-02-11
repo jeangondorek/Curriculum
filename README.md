@@ -1,5 +1,4 @@
 # Curriculum
-Curriculum Generator
 
 Ainda em desenvolvimento de formas em que fique melhor a exposição dos conteúdos postos nos inputs.
 
