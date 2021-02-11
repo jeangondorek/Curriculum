@@ -9,6 +9,7 @@ body div{
     position: absolute;
     left: 10%;
     padding: 2%;
+    padding-top: 0;
 }
 
 body div li{
