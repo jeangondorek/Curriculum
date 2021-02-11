@@ -1,0 +1,42 @@
+body{
+    font-family: 'Lexend Mega', sans-serif;
+    white-space: nowrap;
+    width:100%;
+}
+
+body div{
+    text-align: left;
+    position: absolute;
+    left: 10%;
+    padding: 2%;
+}
+
+body div li{
+    margin-bottom:10px;
+}
+
+input{
+    text-transform: uppercase;
+    padding: 0.5%;
+    margin:0.5%;
+    width: 100%;
+    outline: 0;
+    border: 0;
+    background: transparent;
+    font-family: 'Lexend Mega', sans-serif;
+}
+
+#femail{
+    text-transform: lowercase;
+}
+
+#universidade,#empresa,#curso,#fname{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#fname{
+    width:520px;
+    font-size: 20px;
+    margin-top:18px;
+}
