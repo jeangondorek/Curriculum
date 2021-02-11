@@ -13,8 +13,7 @@
             text-align: left; position: absolute; left: 10%;margin-top:-10px;padding: 2%;padding-top:0;}
             body div li{
             margin-bottom:10px;}
-            a{
-            text-decoration:none;}
+            a{text-decoration:none;}
             button{
             border:1px solid rgba(0,0,0,0.3); border-radius:15px;padding:1.2%;}
             button:hover{
@@ -22,24 +21,6 @@
             input{outline: 0; border: 0;background: transparent;font-family: 'Lexend Mega', sans-serif !important}
             #tempo{width: 310px;}
         </style>
-        <script>
-            function CriaPDF() {
-                var minhaTabela = document.getElementById('tabela').innerHTML;
-                var style = "<style>";
-                style = style + "#btnImprimir{display:none;";
-                style = style + "</style>";
-                // CRIA UM OBJETO WINDOW
-                var win = window.open('', '', 'height=700,width=700');
-                win.document.write('<html><head>');
-                win.document.write(style);                                     // INCLUI UM ESTILO NA TAB HEAD
-                win.document.write('</head>');
-                win.document.write('<body>');
-                win.document.write(minhaTabela);                          // O CONTEUDO DA TABELA DENTRO DA TAG BODY
-                win.document.write('</body></html>');
-                win.document.close(); 	                                         // FECHA A JANELA
-                win.print();                                                            // IMPRIME O CONTEUDO
-            }
-        </script>
     </head>
     <body id="tabela">
         <div>
@@ -78,7 +59,6 @@
                     <input type="text" id="instituicaoensino" name="instituicaoensino" placeholder="Instituição de ensino"><br>
                     <input type="text" id="tempo" name="tempo" placeholder="Data de inicio - Data final/status"></li>
             <br><br>
-            <input style="display: none;" type="button" value="Criar PDF" id="btnImprimir" onclick="CriaPDF()" />
         </div>
     </body>
 </html>
