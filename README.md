@@ -7,7 +7,7 @@ Atualizações virão para inclusive retirar o css e js de dentro do arquivo htm
 Jquery a ser adicionado para auxilio na seleção de elementos.
 
 
-<h1> Atualmente para utilização é necessário clicar com botão direito do mouse na página e na opção imprimir. Após isso trocar a opção de impressora por salvar em PDF ou outro tipo de arquivo. E em "Mais opções" definir as margens como personalizadas e remover toda a margem. Pode-se selecionar outras opções, como "Minímas" e "Nenhuma", que terão mesmo efeito. </h1>
+<h3> Atualmente para utilização é necessário clicar com botão direito do mouse na página e na opção imprimir. Após isso trocar a opção de impressora por salvar em PDF ou outro tipo de arquivo. E em "Mais opções" definir as margens como personalizadas e remover toda a margem. Pode-se selecionar outras opções, como "Minímas" e "Nenhuma", que terão mesmo efeito. </h3>
 
 
 Pode deixar o padrão e desmarcar a caixa "Cabeçalhos e rodapés" e caso esteja marcado "Elementos gráficos em segundo plano" desmarcar.
