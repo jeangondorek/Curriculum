@@ -8,7 +8,8 @@ Atualizações virão para inclusive retirar o css e js de dentro do arquivo htm
 Jquery a ser adicionado para auxilio na seleção de elementos.
 
 
-<h1> Atualmente para utilização é necessário clicar com botão direito do mouse na página e na opção imprimir. Após isso trocar a opção de impressora por salvar em PDF ou outro tipo de arquivo. E em "Mais opções" definir as margens como personalizadas e remover toda a margem. </h1>
+<h1> Atualmente para utilização é necessário clicar com botão direito do mouse na página e na opção imprimir. Após isso trocar a opção de impressora por salvar em PDF ou outro tipo de arquivo. E em "Mais opções" definir as margens como personalizadas e remover toda a margem. Pode-se selecionar outras opções, como "Minímas" e "Nenhuma", que terão mesmo efeito. </h1>
+
 
 Os campos são editáveis de toda forma e com todo o conteúdo, não há controle então **TOME CUIDADO COM O QUE COLOCAR** pois pode acabar gerando um arquivo errado.
 
