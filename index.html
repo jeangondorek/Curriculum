@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="style.css">
         <script src="js.js"></script>
     </head>
-    <body onclick="funcao1()">
+    <body id="corpo" onclick="funcao1()">
         <div>
             <input type="text" id="fname" name="fname" placeholder="NOME"><br><br>
             <input type="text" id="fcidade" name="fcidade" placeholder="Cidade/Estado - País"><br>
@@ -39,5 +39,6 @@
                     <input type="text" id="instituicaoensino" name="instituicaoensino" placeholder="Instituição de ensino"><br>
                     <input type="text" id="tempo" name="tempo" placeholder="Data de inicio - Data final/status"></li></button>
         </div>
+        <button id="baixar" onclick="baixa()">BAIXAR/IMPRIMIR/SALVAR PDF</button>
     </body>
 </html>
