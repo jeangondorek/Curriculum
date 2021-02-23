@@ -15,6 +15,8 @@ Pode deixar o padrão e desmarcar a caixa "Cabeçalhos e rodapés" e caso esteja
 
 Os campos são editáveis de toda forma e com todo o conteúdo, não há controle então **TOME CUIDADO COM O QUE COLOCAR** pois pode acabar gerando um arquivo errado.
 
+Com duplo clique você remove algum campo caso não deseja preenche lo.
+
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=jeangondorek&exclude_repo=FormularioFivem,Concessionaria-fivem,hudfivem,jeangondorek&theme=onedark)](https://github.com/jeangondorek/Curriculum)
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=jeangondorek&repo=Curriculum&theme=onedark)](https://github.com/jeangondorek/Curriculum)
