@@ -8,36 +8,36 @@
         <link rel="stylesheet" href="style.css">
         <script src="js.js"></script>
     </head>
-    <body>
+    <body onclick="funcao1()">
         <div>
             <input type="text" id="fname" name="fname" placeholder="NOME"><br><br>
             <input type="text" id="fcidade" name="fcidade" placeholder="Cidade/Estado - País"><br>
             <input type="text" id="femail" name="femail" placeholder="Email - Telefone"><br> 
-            <h3>FORMAÇÃO ACADÊMICA </h3> 
-            <li><input type="text" id="universidade" name="universidade" placeholder="Instituição de ensino"><br>
-                <input type="text" id="graduação" name="graduação" placeholder="Curso"><br>
-                <input type="text" id="tempo" name="tempo" placeholder="Data de inicio - Data final/status"></li>
+            <h3 id="titleacademy">FORMAÇÃO ACADÊMICA </h3> 
+                <button ondblclick="hide1('eleme')"><li id="eleme"><input type="text" id="universidade" name="universidade" placeholder="Instituição de ensino"><br>
+                    <input type="text" id="graduação" name="graduação" placeholder="Curso"><br>
+                    <input type="text" id="tempo" name="tempo" placeholder="Data de inicio - Data final/status"></li></button>
             <h3>EXPERIÊNCIA </h3> 
-                <li><input type="text" id="empresa" name="empresa" placeholder="Empresa"><br>
+                <button ondblclick="hide('eleme1')"><li id="eleme1"><input type="text" id="empresa" name="empresa" placeholder="Empresa"><br>
                     <input type="text" id="cargo" name="cargo" placeholder="Cargo"><br>
-                    <input type="text" id="tempo" name="tempo" placeholder="Data de inicio - Data final/status"></li>
-                <li><input type="text" id="empresa" name="empresa" placeholder="Empresa"><br>
+                    <input type="text" id="tempo" name="tempo" placeholder="Data de inicio - Data final/status"></li></button>
+                <button ondblclick="hide('eleme2')"><li id="eleme2"><input type="text" id="empresa" name="empresa" placeholder="Empresa"><br>
                     <input type="text" id="cargo" name="cargo" placeholder="Cargo"><br>
-                    <input type="text" id="tempo" name="tempo" placeholder="Data de inicio - Data final/status"></li>
-                <li><input type="text" id="empresa" name="empresa" placeholder="Empresa"><br>
+                    <input type="text" id="tempo" name="tempo" placeholder="Data de inicio - Data final/status"></li></button>
+                <button ondblclick="hide('eleme3')"><li id="eleme3"><input type="text" id="empresa" name="empresa" placeholder="Empresa"><br>
                     <input type="text" id="cargo" name="cargo" placeholder="Cargo"> <br>
-                    <input type="text" id="tempo" name="tempo" placeholder="Data de inicio - Data final/status"></li>
+                    <input type="text" id="tempo" name="tempo" placeholder="Data de inicio - Data final/status"></li></button>
             <h3>INFORMAÇÕES COMPLEMENTARES </h3> 
             <h4>Cursos </h4>
-                <li> <input type="text" id="curso" name="curso" placeholder="Nome Curso"><br>
+                <button ondblclick="hide('eleme4')"><li id="eleme4"> <input type="text" id="curso" name="curso" placeholder="Nome Curso"><br>
                     <input type="text" id="instituicaoensino" name="instituicaoensino" placeholder="Instituição de ensino"><br>
-                    <input type="text" id="tempo" name="tempo" placeholder="Data de inicio - Data final/status"></li>
-                <li> <input type="text" id="curso" name="curso" placeholder="Nome Curso"><br>
+                    <input type="text" id="tempo" name="tempo" placeholder="Data de inicio - Data final/status"></li></button>
+                <button ondblclick="hide('eleme5')"><li id="eleme5"> <input type="text" id="curso" name="curso" placeholder="Nome Curso"><br>
                     <input type="text" id="instituicaoensino" name="instituicaoensino" placeholder="Instituição de ensino"><br>
-                    <input type="text" id="tempo" name="tempo" placeholder="Data de inicio - Data final/status"></li>
-                <li> <input type="text" id="curso" name="curso" placeholder="Nome Curso"><br>
+                    <input type="text" id="tempo" name="tempo" placeholder="Data de inicio - Data final/status"></li></button>
+                <button ondblclick="hide('eleme6')"><li id="eleme6"> <input type="text" id="curso" name="curso" placeholder="Nome Curso"><br>
                     <input type="text" id="instituicaoensino" name="instituicaoensino" placeholder="Instituição de ensino"><br>
-                    <input type="text" id="tempo" name="tempo" placeholder="Data de inicio - Data final/status"></li>
+                    <input type="text" id="tempo" name="tempo" placeholder="Data de inicio - Data final/status"></li></button>
         </div>
     </body>
 </html>
